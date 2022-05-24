@@ -15,6 +15,9 @@
 
 ## 실제 노선의 역간 & 누적 거리
 
++아래는 실제 거리이지만 편의상 임의의 거리를 설정하였다.
+
+
 #### ![실제 노선](https://user-images.githubusercontent.com/102271711/170051812-e77ff23b-730e-41c7-ad8c-645e1eb2b4d5.PNG)
 
 ##### ![image](https://user-images.githubusercontent.com/102271645/170043247-8c4ad82f-dc22-4eb3-85c6-0d714672bf42.png)
@@ -84,8 +87,7 @@ Q
 + [Jgrapht] (https://github.com/rcpoison/jgrapht)를 참고하여 기존의 프로그램에 적용한다.
 - 원래의 기능이나 겹치는 내용은 간략하게 정리밑 삭제하고 거리계산하는 기능을 추가 한다.
 + 원래의 기능에서 하나의 기능을 추가하거나 수정 삭제 할 경우 commit을 실행한다. 
-- DataBase를 이용하여 구조를 입히려 했으나 Ulsan Bus는 데이터 크롤링으로 디비에 데이터를 넣고 그걸 소요시간 계산하는것만 잇는 기능이라 
-- 디비를 적용하기에는 소스코드를 새로 다 만들어야 함이 다소 무리가 있다고 판단하여 단순히 출발역과 도착역간에 거리를 계산하는 기능을 모방하였음.
+- DataBase를 이용하여 구조를 입히려 했으나 Ulsan Bus는 데이터 크롤링으로 디비에 데이터를 넣고 그걸 소요시간 계산하는것만 잇는 기능이기 때문에 디비를 적용하기에는 소스코드를 새로 다 만들어야 함이 다소 무리가 있다고 판단하여 단순히 출발역과 도착역간에 거리를 계산하는 기능을 모방하였다.
 + 마지막에 거리별로 다른 메세지를 출력하는 기능을 생성한다. 
 - 원활한 실행을 위해 아래의 jar 파일을 라이브러리에 추가하는것을 권장한다.
 - (https://jar-download.com/artifacts/org.jgrapht/jgrapht-core), (http://www.java2s.com/Code/Jar/j/Downloadjgraphtjar.htm)
