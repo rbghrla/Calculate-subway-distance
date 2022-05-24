@@ -1,5 +1,5 @@
 ![image](https://user-images.githubusercontent.com/102271645/170036815-cfc3d8da-a3c8-4b88-a812-94f3328eec99.png)
-#### 프로그램의 기능
+###### 프로그램의 기능
 ### 지하철 역 거리 계산
 - 지하철 역과 역 사이의 거리를 계산하는 프로그램을 만든다.
 
