@@ -38,7 +38,7 @@ B. 돌아가기
 <br>
 
 ## 📈 진행 요구사항
-- 미션은 [java-subway-map-precourse 저장소](https://github.com/woowacourse/java-subway-map-precourse) 를 fork/clone해 시작한다.
+- 미션은 [precourse-subway 저장소](https://github.com/woowacourse/java-subway-map-precourse(https://github.com/yangdongjue5510/precourse-subway.git))를 fork/clone해 시작한다.
 - 기능을 구현하기 전에 java-subway-map-precourse/docs/README.md 파일에 구현할 기능 목록을 정리해 추가한다.
 - git의 commit 단위는 앞 단계에서 README.md 파일에 정리한 기능 목록 단위로 추가한다.
  
