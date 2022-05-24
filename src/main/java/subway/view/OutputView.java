@@ -32,18 +32,12 @@ public class OutputView {
 
         System.out.println(NEW_LINE + INFO_LINE);
         System.out.println(INFO + "총 거리: " + distance + "km");
-        System.out.println(INFO_LINE);
-
-        return printStations(stations);
-    }
-
-    public static SceneState printInquiryTimeResult(List<Station> stations, int time) {
-        if (stations == null) {
-            return SceneState.MAIN_SCENE;
-        }
-
-        System.out.println(NEW_LINE + INFO_LINE);
-        System.out.println(INFO + "총 소요 시간: " + time + "분");
+        if (distance < 3)
+       	 System.out.println("건강을 위해 걸어가세요!");
+        if (distance >= 3 && distance <=30)
+       	System.out.println("지하철을 이용하세요!");
+        if (distance > 30)
+       	System.out.println("거리가 머니 자동차를 이용하세요!");
         System.out.println(INFO_LINE);
 
         return printStations(stations);
