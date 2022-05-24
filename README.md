@@ -14,7 +14,7 @@
 - 거리별 메세지를 출력한다. (아직 미구현)
 
 
-### ![image](https://user-images.githubusercontent.com/102271645/170043247-8c4ad82f-dc22-4eb3-85c6-0d714672bf42.png)
+##### ![image](https://user-images.githubusercontent.com/102271645/170043247-8c4ad82f-dc22-4eb3-85c6-0d714672bf42.png)
 
 
 
@@ -76,7 +76,7 @@ Q
 
 ## 📈 진행 요구사항
 - 우선은 [precourse-subway 저장소](https://github.com/yangdongjue5510/precourse-subway)를 fork/clone해 시작한다.
-+ 거리 계산을 하기 위해 [jgragh] ??? 를 추가로 fork/clone해서 기존의 프로그램에 적용한다.
++ 거리 계산을 하기 위해 [jgragh] ???(아직 못찾음) 를 추가로 fork/clone해서 기존의 프로그램에 적용한다.
 - 원래의 기능이나 겹치는 내용은 간략하게 정리밑 삭제하고 거리계산하는 기능을 추가 한다.
 + 원래의 기능에서 하나의 기능을 추가하거나 수정 삭제 할 경우 commit을 실행한다. 
 - DataBase를 이용하려 했으나 SQL에 대한 숙련도 부족으로 부득이 하게 데이터를 직접 자바에 입력 (추후에 DB를 더 공부하게 되면 구현할 예정)
