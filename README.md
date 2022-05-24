@@ -47,4 +47,4 @@ B. 돌아가기
 
 ## 📝 License
 
-This project is [MIT](https://github.com/woowacourse/java-subway-map-precourse/blob/master/LICENSE.md) licensed.
+This project is [MIT](https://github.com/yangdongjue5510/precourse-subway/README.md) licensed.
