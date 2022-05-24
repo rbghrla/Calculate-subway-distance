@@ -1,3 +1,4 @@
+package subway.domain.station;
 
 import java.util.ArrayList;
 import java.util.Collections;
