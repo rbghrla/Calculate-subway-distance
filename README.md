@@ -1,4 +1,4 @@
-##### 프로그램의 기능 
+### 🚇 프로그램 기능 
 
 ![image](https://user-images.githubusercontent.com/102271645/170036815-cfc3d8da-a3c8-4b88-a812-94f3328eec99.png)
 
