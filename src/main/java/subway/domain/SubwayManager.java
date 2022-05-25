@@ -39,7 +39,7 @@ public class SubwayManager {
             return InputView.inputPathSceneChoice(scanner);
         }
 
-        return sceneState;
+            return sceneState;
     }
 
     private SceneState viewFindInformationByDistanceScene(Scanner scanner, SceneState sceneState) {
@@ -103,8 +103,8 @@ public class SubwayManager {
     }
 
     private SceneState showPathByTime(Station departureStation, Station arrivalStation) {
-        if (departureStation.equals(arrivalStation)) {
-            throw new SameStationException();
+        if    (departureStation.equals(arrivalStation)) {
+              throw new SameStationException();
         }
 
         return OutputView.printInquiryTimeResult(
