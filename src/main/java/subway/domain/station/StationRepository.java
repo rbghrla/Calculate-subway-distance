@@ -46,26 +46,26 @@ public class StationRepository {
     }
 
     public static List<Station> stations() {
-        return Collections.unmodifiableList(stations);
+         return Collections.unmodifiableList(stations);
     }
 
     public static void addStation(Station station) {
-        stations.add(station);
+         stations.add(station);
     }
 
     public static boolean deleteStation(String name) {
-        return stations.removeIf(station -> Objects.equals(station.getName(), name));
+         return stations.removeIf(station -> Objects.equals(station.getName(), name));
     }
 
     public static void deleteAll() {
-        stations.clear();
+         stations.clear();
     }
 
     public static Station findStationByName(String name) {
-        return stations.stream()
-                .filter(station -> station.getName().equals(name))
-                .findFirst()
-                .orElseThrow(NoSuchStationException::new);
+         return stations.stream()
+                 .filter(station -> station.getName().equals(name))
+                 .findFirst()
+                 .orElseThrow(NoSuchStationException::new);
     }
 }
 
