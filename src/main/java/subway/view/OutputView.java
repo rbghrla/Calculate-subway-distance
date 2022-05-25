@@ -37,7 +37,7 @@ public class OutputView {
         if (distance >= 3 && distance <=30)
        	System.out.println("지하철을 이용하세요!");
         if (distance > 30)
-       	System.out.println("거리가 머니 자동차를 이용하세요!");
+       	System.out.println("거리가 많이 머니 시간이 오래 걸리므로 자동차를 이용하세요!");
         System.out.println(INFO_LINE);
 
         return printStations(stations);
